@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="block">
+
+            <div class="divImgPet">
+                <img class="pet" id="pet" src="pet.png" alt="Tamagotchi">
+            </div>
+
+            <div class="divStatus">
+                <h2>Status</h2>
+                <div class="status">
+
+                    <div class="statusBar">
+                        <label for="health">Health</label>
+                        <div id="health" class="bar">100%</div>
+                    </div>
+
+                    <div class="statusBar">
+                        <label for="hungry">Hungry</label>
+                        <div id="hungry" class="bar">100%</div>
+                    </div>
+
+                    <div class="statusBar">
+                        <label for="hygiene">Hygiene</label>
+                        <div id="hygiene" class="bar">100%</div>
+                    </div>
+
+                    <div class="statusBar">
+                        <label for="happyness">Happyness</label>
+                        <div id="happyness" class="bar">100%</div>
+                    </div>
+
+                    <div class="statusBar">
+                        <label for="energy">Energy</label>
+                        <div id="energy" class="bar">100%</div>
+                    </div>
+
+                </div>
+
+                <div class="actions">
+                    <button class="actionButton" onclick="Eat()">Eat</button>
+                    <button class="actionButton" onclick="Shower()">Shower</button>
+                    <button class="actionButton" onclick="Play()">Play</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </section>
+    
+</body>
+</html>
